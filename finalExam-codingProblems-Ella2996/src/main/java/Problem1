@@ -1,0 +1,8 @@
+(a) The running time for the first two for loop is O(n^2) (1 + 2 + .... n). And the third
+for loop running time is O(logn). So overall, it's O(n^2 logn)
+
+(b) Bubble sort
+O(n^2)
+
+For the first two for loop it's O(n^2) (1 + 2 + ... n - 1). Also there is a print method
+which is O(n). So in total it's O(n^2 + n^2) = O(n^2)

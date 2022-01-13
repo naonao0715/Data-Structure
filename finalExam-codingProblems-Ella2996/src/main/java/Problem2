@@ -1,0 +1,11 @@
+
+(a)
+T(1) = C1
+T(n) = 2T(n/2) + n^2logn
+
+(b) a = 2, b = 2, So(n^(logb_a)) = O(n)
+And we know f(n) = n^2 logn is Omega(n^(1 + 0.1)), and
+f(n/2) = n^2/8 (logn - log2) < n^2/8 logn < 1/2 n^2 logn = 1/2 f(n) for c = 1/2
+So it's case 3 and T(n) = n^2logn
+
+
